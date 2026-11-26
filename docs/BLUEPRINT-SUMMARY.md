@@ -45,7 +45,7 @@ Estimated *direct monthly technology cost per active employee* (research-based p
 | Software engineer | $20–$60 |
 | Premium intelligence worker | $30–$100+ |
 
-Set against catalogue pricing of $750–$7,500 per employee per month, the direct-cost margin is wide; the real costs to manage are supervision, quality, and customer success.
+Set against catalogue pricing of $599–$10,000 per employee per month, the direct-cost margin is wide; the real costs to manage are supervision, quality, and customer success.
 
 ## What else the report covers
 

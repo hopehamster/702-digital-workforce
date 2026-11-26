@@ -16,7 +16,7 @@ The biggest architectural finding behind the program: **a digital employee doesn
 
 ## Where employees work
 
-- **Local workstation (customer-powered).** Employees can run on the customer's own laptop or desktop via Unkernel — a full Linux kernel that runs in the browser, with local filesystem access and no cloud infrastructure required. This is a cost advantage (702 AI Services does not pay for the compute) and a privacy advantage (customer data stays on the customer's machine, under the customer's control).
+- **A dedicated workstation, hosted by 702.** Each leased employee runs on its own dedicated cloud server, hosted and operated by 702 AI Services — one worker, one machine, isolated from every other customer. (The program also works with local-compute technology such as Unkernel, a Linux kernel that runs in the browser; a customer-hardware placement is not part of the current offer.)
 - **The persistent office.** A Cloudflare Computer workspace gives each employee a durable office — memory, files, skills, and documents that survive between assignments — plus hosted execution for unattended work.
 
 ## The commercial model
@@ -26,9 +26,9 @@ The biggest architectural finding behind the program: **a digital employee doesn
 3. The employee is connected to the customer's environment and begins work.
 4. 702 AI Services provides ongoing supervision and quality assurance, regular performance reviews, and replacement if an employee is underperforming.
 
-**Revenue share: 80/20.** 702 AI Services keeps 80% of the monthly subscription; the customer keeps 20% as compensation for providing the hardware, electricity, and internet. Example: on a $500/month employee, 702 AI Services earns $400 and the customer keeps $100.
+**Flat pricing, no revenue split.** The customer pays the grade price below — that is the whole commercial relationship. 702 AI Services hosts and runs the worker on its own infrastructure and carries the hosting cost itself; there is no customer share and no payout in either direction, and the customer provides no hardware. *(An early draft of this program described an 80/20 revenue share tied to a customer-hardware model; that idea was retired in November 2026 and is not part of the offer.)*
 
-**Customer hardware:** a mid-range computer costing roughly $1,500–$4,000, with at least 16 GB RAM and 256 GB storage — not expensive for a business.
+**Premium by design.** Pricing sits deliberately on the higher side: it is a client-selection filter. The program is built for established businesses buying capacity — and even at these prices, a leased employee beats a human worker on price and on hours, since it is available around the clock.
 
 **Why customers lease instead of hire:** no office space, equipment, or benefits costs; employees can operate around the clock; hiring is effectively instant compared to recruiting; skills are specialized and deployment is immediate.
 
@@ -66,13 +66,17 @@ The biggest architectural finding behind the program: **a digital employee doesn
 
 | Grade | Experience | Price |
 |---|---|---|
-| Trainee | 0% — in training | $0/month (free) |
-| Junior | 3–6 months | $750/month |
-| Mid-Level | 1 year | $1,500/month |
-| Senior | 2+ years | $3,000/month |
-| Expert | 5+ years | $7,500/month |
+| Entry Level | Certified, new in service | $599/month |
+| Junior | 3+ months | $1,000/month |
+| Mid-Level | 1 year | $2,000/month |
+| Senior | 2+ years | $5,000/month |
+| Expert | 5+ years | $10,000/month |
+
+Expert is waitlist-only: no employee can honestly hold five years of certified service yet, and we will not imply supply that does not exist.
 
 Grades are earned, not declared: employees are certified against the Digital Employee Standard, and promotion follows demonstrated performance — the same supervision loop a staffing agency runs for human placements.
+
+*Terminology: the ladder's bottom rung is **Entry Level** — the certified basic worker, still in ongoing training. "Trainee" is not a grade we sell; it is only the internal *In training* status an employee passes through before certification.*
 
 ## Product tiers
 

@@ -10,18 +10,17 @@ A digital employee doesn't need a computer running all the time. It needs a **pe
 
 ## Two places to work
 
-- **The local workstation — Unkernel.** The employee can run on the customer's own hardware via [Unkernel](https://github.com/unkernel), a Linux kernel that runs in the browser. Customer data stays on the customer's machine, under the customer's control.
+- **The workstation — a dedicated cloud server.** Each employee runs on its own dedicated server, hosted and operated by 702 AI Services: one worker, one machine, isolated per customer. (The program also works with local-compute technology such as [Unkernel](https://github.com/unkernel), a Linux kernel that runs in the browser; running on customer hardware is not part of the current offer.)
 - **The office — Cloudflare Computer.** A persistent workspace (memory, files, skills, documents) the employee returns to between shifts, so work and context survive between assignments.
 
 ## The model
 
 - Businesses browse employees by **role** and **grade**, subscribe monthly, and the employee starts work — supervised by 702 AI Services, with performance reviews and replacement if an employee underperforms.
-- Revenue is shared **80/20**: the customer keeps 20% as compensation for providing the hardware, electricity, and internet the local workstation runs on.
-- Customer hardware is ordinary: a mid-range computer with at least 16 GB of RAM.
+- Pricing is a **flat monthly grade price** — no revenue split in either direction. 702 AI Services hosts and runs the worker on its own infrastructure; the customer provides no hardware and bears no hosting burden.
 
 ## Catalogue at a glance
 
-18 professional roles across administration, finance, sales & marketing, technical, and project/operations work — each offered at five grades from **Trainee ($0/mo)** to **Expert ($7,500/mo)**. Full catalogue: [docs/VISION.md](docs/VISION.md).
+18 professional roles across administration, finance, sales & marketing, technical, and project/operations work — each offered at five grades from **Entry Level ($599/mo)** to **Expert ($10,000/mo)**. Full catalogue: [docs/VISION.md](docs/VISION.md).
 
 ## Product tiers
 
